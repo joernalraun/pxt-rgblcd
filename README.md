@@ -1,4 +1,4 @@
-## rgblcd
+## RGB-LCD
 
 	Package for the RGB-LCD Backlight V4.0 from Seeed Studio.
 
