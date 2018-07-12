@@ -1,7 +1,7 @@
 /*
 *	
 */
-//% color=#0fbc11 icon="\uf2fa" block="RGB-LCD"
+//% color=#0fbc11 icon="\uf52c" block="RGB-LCD"
 namespace rgblcd {
 
     let isnotinitialized = true
