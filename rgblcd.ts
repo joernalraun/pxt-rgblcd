@@ -1,7 +1,7 @@
 /*
 *	
 */
-//% color=#0fbc11 icon="\uf1ab" block="RGB-LCD"
+//% color=#0fbc11 icon="\uf52c" block="RGB-LCD"
 namespace rgblcd {
 
     let isnotinitialized = true
@@ -110,7 +110,6 @@ namespace rgblcd {
     //% weight=87 blockGap=8
     //% block="write | %str | to | row | %row | with speed | %speed | ms" 
     //% blockId=write_String
-    //% icon="\uf1ab"
     export function writeString(str: string, row: number, speed: number) {
 
         if (row == 0) {
@@ -172,7 +171,6 @@ namespace rgblcd {
     //% weight=87 blockGap=8
     //% block="set red to | %r" 
     //% blockId=set_red
-    //% icon="\uf1ab"
     export function setRed(r: number) {
         setRGBReg(Command.REG_MODE1, 0)
         setRGBReg(Command.REG_MODE2, 0)
@@ -187,7 +185,6 @@ namespace rgblcd {
     //% weight=87 blockGap=8
     //% block="set green to | %g" 
     //% blockId=set_green
-    //% icon="\uf1ab"
     export function setGreen(g: number) {
         setRGBReg(Command.REG_MODE1, 0)
         setRGBReg(Command.REG_MODE2, 0)
@@ -202,7 +199,6 @@ namespace rgblcd {
     //% weight=87 blockGap=8
     //% block="set blue to | %b"
     //% blockId=set_blue
-    //% icon="\uf1ab"
     export function setBlue(b: number) {
         setRGBReg(Command.REG_MODE1, 0)
         setRGBReg(Command.REG_MODE2, 0)
@@ -219,7 +215,6 @@ namespace rgblcd {
     //% weight=87 blockGap=8
     //% block="set RGB to | red |  %r | green |  %g | blue |  %b"
     //% blockId=set_rgb
-    //% icon="\uf1ab"
     export function setRGB(r: number, g: number, b: number) {
         setRGBReg(Command.REG_MODE1, 0)
         setRGBReg(Command.REG_MODE2, 0)
